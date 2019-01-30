@@ -1,0 +1,11 @@
+server:
+  port: 9007
+spring:
+  application:
+    name: apespace_spitslot
+  data:
+    mongodb:
+      host: 192.168.146.20
+      database: spitslot
+  redis:
+    host: 192.168.146.20

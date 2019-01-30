@@ -1,0 +1,14 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: apespace_faqs
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/apespace_faqs?characterEncoding=utf-8
+    password: root
+    username: root
+  jpa:
+    show-sql: true
+    database: mysql
+    generate-ddl: true
