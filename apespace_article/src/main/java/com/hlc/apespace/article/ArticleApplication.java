@@ -3,6 +3,7 @@ package com.hlc.apespace.article;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
     *@ClassName ArticleApplication
@@ -13,6 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 **/
 @SpringBootApplication
 @EnableAutoConfiguration
+@EnableEurekaClient
 public class ArticleApplication {
 
     public static void main(String[] args) {
