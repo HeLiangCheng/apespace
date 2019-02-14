@@ -3,6 +3,7 @@ package com.hlc.apespace.recruit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
     *@ClassName RecruitApplication
@@ -13,6 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 **/
 @SpringBootApplication
 @EnableAutoConfiguration
+@EnableEurekaClient
 public class RecruitApplication {
 
     public static void main(String[] args) {
