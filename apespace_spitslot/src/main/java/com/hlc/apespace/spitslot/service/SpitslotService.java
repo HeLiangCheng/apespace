@@ -11,6 +11,8 @@ import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
+
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -57,6 +59,20 @@ public class SpitslotService {
      */
     public void add(Spitslot spit) {
         spit.set_id(idWorker.nextId() + "");
+        spit.setPublishtime(new Date());
+        spit.setVisits(0);
+        spit.setShare(0);
+        spit.setThumbup(0);
+        spit.setComment(0);
+        spit.setState("1");
+        if(spit.getParentid()!=null && !"".equals(spit.getParentid())) {
+            //如果存在上级ID，评论
+            Query query = new Query();
+            query.addCriteria(Criteria.where("_id").is(spit.getParentid()));
+            Update update = new Update();
+            update.inc("comment", 1);
+            mongoTemplate.updateFirst(query, update, "spit");
+        }
         spitslotDao.save(spit);
     }
 
