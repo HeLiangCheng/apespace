@@ -21,6 +21,7 @@
         <module>apespace_search</module>
         <module>apespace_user</module>
         <module>apespace_eureka</module>
+        <module>apespace_friend</module>
     </modules>
 
     <parent>

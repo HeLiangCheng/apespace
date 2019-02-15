@@ -1,0 +1,21 @@
+server:
+  port: 9012
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8090/eureka/
+  instance:
+    preferIpAddress: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+spring:
+  application:
+    name: apespace_friend
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/apespace_friend?characterEncoding=utf-8
+    password: root
+    username: root
+  jpa:
+    show-sql: true
+    database: mysql
+    generate-ddl: true
