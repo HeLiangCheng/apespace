@@ -1,0 +1,29 @@
+server:
+  port: 9007
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8090/eureka/
+  instance:
+    preferIpAddress: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+spring:
+  application:
+    name: apespace_user
+  rabbitmq:
+    host: 192.168.146.20
+  redis:
+    host: 192.168.146.20
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/apespace_user?characterEncoding=utf-8
+    password: root
+    username: root
+  jpa:
+    show-sql: true
+    database: mysql
+    generate-ddl: true
+jwt：
+  config:
+    key: apespace
+    expire: 60000
