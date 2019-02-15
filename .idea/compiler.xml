@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apespace_article" />
+        <module name="apespace_base" />
+        <module name="apespace_common" />
+        <module name="apespace_eureka" />
+        <module name="apespace_faqs" />
+        <module name="apespace_friend" />
+        <module name="apespace_gathering" />
+        <module name="apespace_recruit" />
+        <module name="apespace_search" />
+        <module name="apespace_spitslot" />
+        <module name="apespace_user" />
+        <module name="tensquare_faqs" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="apespace" target="1.8" />
+      <module name="apespace_article" target="1.8" />
+      <module name="apespace_base" target="1.8" />
+      <module name="apespace_common" target="1.8" />
+      <module name="apespace_eureka" target="1.8" />
+      <module name="apespace_faqs" target="1.8" />
+      <module name="apespace_friend" target="1.8" />
+      <module name="apespace_gathering" target="1.8" />
+      <module name="apespace_recruit" target="1.8" />
+      <module name="apespace_search" target="1.8" />
+      <module name="apespace_spitslot" target="1.8" />
+      <module name="apespace_user" target="1.8" />
+      <module name="tensquare_faqs" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

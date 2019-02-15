@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/apespace.iml" filepath="$PROJECT_DIR$/.idea/apespace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apespace_article/apespace_article.iml" filepath="$PROJECT_DIR$/apespace_article/apespace_article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apespace_base/apespace_base.iml" filepath="$PROJECT_DIR$/apespace_base/apespace_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apespace_common/apespace_common.iml" filepath="$PROJECT_DIR$/apespace_common/apespace_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apespace_eureka/apespace_eureka.iml" filepath="$PROJECT_DIR$/apespace_eureka/apespace_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apespace_faqs/apespace_faqs.iml" filepath="$PROJECT_DIR$/apespace_faqs/apespace_faqs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apespace_friend/apespace_friend.iml" filepath="$PROJECT_DIR$/apespace_friend/apespace_friend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apespace_gathering/apespace_gathering.iml" filepath="$PROJECT_DIR$/apespace_gathering/apespace_gathering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apespace_recruit/apespace_recruit.iml" filepath="$PROJECT_DIR$/apespace_recruit/apespace_recruit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apespace_search/apespace_search.iml" filepath="$PROJECT_DIR$/apespace_search/apespace_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apespace_spitslot/apespace_spitslot.iml" filepath="$PROJECT_DIR$/apespace_spitslot/apespace_spitslot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apespace_user/apespace_user.iml" filepath="$PROJECT_DIR$/apespace_user/apespace_user.iml" />
+    </modules>
+  </component>
+</project>
